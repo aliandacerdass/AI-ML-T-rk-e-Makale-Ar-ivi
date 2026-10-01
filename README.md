@@ -7,9 +7,9 @@ arXiv'in **cs.LG** (makine öğrenmesi) ve **cs.AI** (yapay zekâ) kategorilerin
 ## Son 7 gün
 
 <!-- SON7 -->
-- [1 Ekim 2026](ozetler/2026/10/2026-10-01.md) · Günlük · 4 makale
+Henüz özet yok.
 
-Son başarılı çalışma: **1 Ekim 2026** · Tüm günler: [ARSIV.md](ARSIV.md)
+Son başarılı çalışma: **—** · Tüm günler: [ARSIV.md](ARSIV.md)
 <!-- /SON7 -->
 
 ## Nasıl çalışır?
