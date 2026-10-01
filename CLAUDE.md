@@ -22,6 +22,8 @@ TZ=Europe/Istanbul date +%u   # 1-5 hafta içi, 6 cumartesi, 7 pazar
 - Cumartesi → `tur: haftalik`, adım 2'yi atla ("Hafta sonu" bölümüne bak).
 - Pazar → `tur: derin`, adım 2'yi atla ("Hafta sonu" bölümüne bak).
 
+**Tekrar çalışma kontrolü:** `data/runs.csv`'de bugünün tarihiyle `basarili` satırı varsa bugünün işi zaten yapılmıştır. Hiçbir dosyayı değiştirme, commit atma ve "bugün zaten tamamlanmış" diyerek dur.
+
 Önce `pip install -q -r requirements.txt` çalıştır.
 
 ### 2. Adayları çek (yalnızca hafta içi)
