@@ -1,2 +1,3 @@
 tarih,durum,makale_sayisi,hata
 2026-10-01,hata,0,"huggingface.co erisilemedi (proxy 403 / egress blocked); WebFetch yedek yolu da basarisiz"
+2026-10-01,basarili,5,

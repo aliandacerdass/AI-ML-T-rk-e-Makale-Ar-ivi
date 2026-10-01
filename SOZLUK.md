@@ -12,6 +12,7 @@
 | chain-of-thought | düşünce zinciri | |
 | context window | bağlam penceresi | |
 | dataset | veri seti | |
+| demonstration | gösterim | Robotikte öğretici örnek |
 | diffusion model | difüzyon modeli | |
 | distillation | damıtma | Bilgi damıtma (*knowledge distillation*) |
 | embedding | gömme (vektörü) | |
@@ -25,6 +26,7 @@
 | harness | harness | Modeli saran araç, bellek ve kontrol katmanı; çevrilmez |
 | in-context learning (ICL) | bağlam içi öğrenme | Ağırlıklar değişmeden, verilen örneklerden öğrenme |
 | inference | çıkarım | Eğitilmiş modelin çalıştırılması |
+| KL divergence | KL ıraksaması | İki olasılık dağılımı arasındaki fark ölçüsü |
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |

@@ -1,0 +1,659 @@
+{
+  "run_date": "2026-10-01",
+  "hf_dates": [
+    "2026-09-30"
+  ],
+  "sources": [
+    "huggingface"
+  ],
+  "fetched_at": "2026-10-01T15:30:04+03:00",
+  "papers": [
+    {
+      "arxiv_id": "2609.33439",
+      "title": "Raven: The Harness of Harnesses for Composable Agentic Intelligence",
+      "authors": [
+        "EverMind AI"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.GT",
+        "cs.MA",
+        "cs.NE"
+      ],
+      "abstract": "As large language models advance, AI agents are moving beyond isolated, domain-specific tasks toward long-horizon, cross-domain workflows. This transition exposes two challenges: increasing harness complexity makes manual design difficult to scale, while tighter coupling to specific domains limits the generality of a single harness. The central question thus shifts from how to engineer a stronger harness for one domain to how to autonomously construct specialized harnesses, improve them through experience, and orchestrate them across domains. We introduce Raven, \\emph{The Harness of Harnesses}, an open-source multi-agent ecosystem that automatically constructs and evolves modular harnesses for specific models and domains, treating each executable model--harness pair as a composable unit of intelligence. To support an \\emph{All-Domain Collaboration Network}, its Host Agent decomposes goals, matches subtasks to specialized agents, coordinates execution dependencies, and integrates results, while a host archive and EverOS preserve experience across tasks and Skill Forge makes that experience available as reusable procedures. Our theory establishes sufficient conditions for such composition to expand reliable task coverage beyond that of the available individual agents under a shared resource budget. On complex and long-horizon tasks, Raven significantly outperforms the state-of-the-art agent systems, pushing the frontier of composable agentic intelligence.",
+      "url": "https://arxiv.org/abs/2609.33439",
+      "hf_upvotes": 493,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36012",
+      "title": "In-Context Learning for Robots: Methods and Applications",
+      "authors": [
+        "Haojian Huang",
+        "Zexi Li",
+        "Junhao Guo",
+        "Yehang Zhang",
+        "Wenxuan Peng",
+        "Bohan Zhou",
+        "Weilin Ruan",
+        "Leyi Wu",
+        "Chenxu Wang",
+        "Jianchong Su",
+        "Binghui Xie",
+        "Wosong Chen",
+        "Yingjie Xu",
+        "Tianhao Zhou",
+        "Suzeyu Chen",
+        "Pukun Zhao",
+        "Jiaqi He",
+        "Xinyi Li",
+        "Runze Li",
+        "Peiran Dong",
+        "Shaoxiang Dang",
+        "Jing Huang",
+        "Yingbing Chen",
+        "Yifan Chang",
+        "Tianyi Zhang",
+        "Shiyuan Deng",
+        "Haozhi Wang",
+        "Yangkai Wei",
+        "Wenqian Li",
+        "Han Yang",
+        "Kaiwen Zhou",
+        "Huaping Liu",
+        "James Cheng",
+        "Rui Shao",
+        "Donglin Wang",
+        "Yaochu Jin",
+        "Jianye Hao",
+        "Ying-Cong Chen",
+        "Yinchuan Li"
+      ],
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "abstract": "General-purpose robots must infer what a new task requires and translate that understanding into appropriate physical action. In-context learning (ICL) for robots supports this process by using demonstrations and interaction to direct existing competence with neural parameters held fixed during deployment. We organize this literature review around the interfaces connecting contextual evidence to execution, distinguishing four families: context-conditioned policies, geometric demonstration transfer, world-model-based control, and skill- and agent-based execution. Comparing these interfaces clarifies their transfer assumptions and the roles of training, correspondence, and memory in making context useful. Across manipulation and navigation, we examine how these mechanisms preserve taught requirements as objects, environments, and execution conditions change. This analysis links method design to evaluation practices that distinguish responsiveness to teaching, physical transfer, and benefits from retained experience. The resulting agenda connects compositional task acquisition and faithful transfer with physical recursive self-improvement, in which experience improves the ability to learn subsequent tasks.",
+      "url": "https://arxiv.org/abs/2609.36012",
+      "hf_upvotes": 358,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.32722",
+      "title": "Scaling Properties of Same-Family On-Policy Distillation",
+      "authors": [
+        "Yuntai Bao",
+        "Qinfeng Li",
+        "Guoqing Jiang",
+        "Liwei Chen",
+        "Zhiheng Qin",
+        "Xuanping Li",
+        "Wenqi Zhang",
+        "Xuhong Zhang"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "*Reinforcement learning (RL)* can induce substantial reasoning capabilities in large language models (LLMs), but how much of this capability transfers across model scales, and how quickly, remains unclear. We study the scaling properties of *on-policy distillation (OPD)* across *weak-to-strong*, *same-base*, and *strong-to-weak* teacher--student setups. We find that early OPD training dynamics uniformly exhibit a regular *useful-transfer* regime, in which held-out accuracy (the *gold score*, $G$) rises approximately linearly in $d=\\sqrt{\\mathrm{KL}(π_θ\\Vert π_{\\mathrm{ref}})}$, the square root of token-level reverse KL divergence from the student initialization. In every observed weak-to-strong pair, the student's peak gold score exceeds its teacher's own, so a compact RL expert can transfer capability to a much larger student via OPD. To estimate OPD outcomes, we fit *power laws* for how $G_{\\mathrm{peak}}$ and the slope of the useful-transfer regime scale with student and teacher parameter counts and with teacher gold score. These laws show that peak gold score improves with teacher scale only up to roughly the student's scale, and that at a matched gold score smaller teachers transfer better, so a teacher's score alone does not define its supervision value. We also study the scaling effects of two OPD variants, bootstrapping weak-to-strong OPD, and the degree of on-policy supervision.",
+      "url": "https://arxiv.org/abs/2609.32722",
+      "hf_upvotes": 221,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36322",
+      "title": "Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression",
+      "authors": [
+        "Xingyu Zhu",
+        "Pu",
+        "Yi",
+        "Ziheng Cheng",
+        "Ang Lv",
+        "Jing Liu",
+        "Lexing Ying",
+        "Yiyuan Ma",
+        "Xin Dong"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Chunked KV-cache compression reduces the memory and attention costs of long-context inference by compressing windows of consecutive tokens into fewer cache entries at a fixed stride. Such compression also introduces a new positional coordinate: a token's phase, or its position relative to compression-window boundaries. We uncover a systematic asymmetry in models using such compression: the same information can be easy to retrieve at one phase and difficult at another. We call this periodic variation in retrieval performance phase sensitivity. In large open-weight models with such compression, long-context retrieval accuracy can differ by up to 40 percentage points across phases, revealing periodic weak spots that average benchmark scores can conceal. To investigate this behavior, we pretrain a family of transformers from scratch across multiple KV-compression designs, reproducing phase sensitivity across the variants. Mechanistic analysis using causal interventions in these models reveals phase specialization: different attention components contribute asymmetrically to retrieving information at different source phases. We further analyze idealized retrieval models, showing how gradient flow dynamics may favor sharp phase specialization. Evaluating models with chunked KV-cache compression thus requires measuring across compression phases: high average accuracy can coexist with systematic positional failures.",
+      "url": "https://arxiv.org/abs/2609.36322",
+      "hf_upvotes": 88,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36601",
+      "title": "SAKI: Maximal-Coupling-Routed Teacher Supervision for On-Policy Distillation",
+      "authors": [
+        "Miteto Wei",
+        "Xiaohan Wang",
+        "Zehao Chen",
+        "Jiajun Chai",
+        "Sichao Liu",
+        "Li Wang",
+        "Haoyuan Xu",
+        "Zhaoyu Hu",
+        "Wei Lin",
+        "Guojun Yin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "On-policy distillation (OPD) reduces train-test state mismatch by training a student on its own generated trajectories, but weak students may visit teacher-misaligned prefixes where supervision is less representative. We introduce SAKI (Supervision Allocation with KL-constrained Interpolation), which combines a KL-constrained teacher-guided rollout with maximal coupling and reuses realized accept/correction events to route token-level supervision. Accepted positions retain sampled-token reverse-KL supervision, while correction positions receive direct supervision on the teacher's highest-probability token. Under maximal coupling, the correction probability is exactly TV(p_t, q_t), so the same trust-region radius controls rollout deviation and upper-bounds intervention and specialized-supervision frequency. We further implement an engine-resident speculative verifier that preserves the exact-q trajectory distribution and coupling semantics while improving matched-workload rollout throughput by 4.22x. Across seven mathematical reasoning benchmarks, SAKI improves the matched teacher-guided baseline in Mean@8 and Pass@8 for both 1.7B and 0.6B students. Placement controls and fixed-prefix analysis further support correction-triggered routing as a conflict-adaptive supervision signal.",
+      "url": "https://arxiv.org/abs/2609.36601",
+      "hf_upvotes": 82,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37226",
+      "title": "Follow the Entities: A Corpus Map for Agentic Search",
+      "authors": [
+        "Soyeong Jeong",
+        "Sujay Kumar Jauhar",
+        "Sung Ju Hwang",
+        "Andrew Joohun Nam"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "Answering questions and completing tasks over large document collections often requires connecting evidence spread across multiple documents, such as a project's approval recorded in one, its requirements in another, and its latest status in a third. Recent LLM agents approach this by iteratively searching the full corpus rather than reading only a fixed set of top-ranked documents. However, when the corpus is exposed only as a flat collection of files, a relevant document gives no indication of how it relates to others, so the agent must rediscover these relationships for every query, often missing complementary evidence while simultaneously consuming substantial additional tokens. To address this, we introduce CorpusMap, a navigation layer that organizes the corpus around its recurring entities, which are identifiable from the documents themselves and can link a single document to many others across sources. Specifically, CorpusMap represents each recurring entity as an Entity Page that aggregates information about it and links to every document that refers to it, forming a graph between entities and documents that the agent can traverse to gather otherwise disconnected evidence. Moreover, since CorpusMap is constructed offline by resolving mentions of the same entity across documents, its links are shared across queries rather than rediscovered repeatedly at inference time. Using 7 different models with 3 benchmark datasets, we show that CorpusMap improves both evidence discovery and answer quality over raw-corpus agentic search while using fewer tokens on average, and further outperforms 4 alternative navigation layers, suggesting that entities serve as effective anchors for navigating large document collections.",
+      "url": "https://arxiv.org/abs/2609.37226",
+      "hf_upvotes": 76,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.38155",
+      "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
+      "authors": [
+        "Hui Ren",
+        "Lei Fan",
+        "Henry Pao",
+        "Han Guo",
+        "Zeeshan Zia",
+        "Ying Chen",
+        "Alexander Schwing",
+        "Gang Hua"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the \"biography\" of the particular entity a question concerns. To address this, we introduce Grounded Entity Biographies (GEB), a long-video memory framework that groups visually grounded observations of the same physical instance across clips into retrievable biographies while preserving the context of each moment. During question answering, the biography is retrieved alongside episodic evidence, allowing the model to follow an entity through events using identity links established during memory construction. Evaluations across four benchmarks, including day-long and week-long recordings, demonstrate improvements over prior memory frameworks in both multiple-choice and open-ended question answering. On EgoLifeQA, GEB achieves 72.0% accuracy, 4.4 percentage points above the best published result. Ablations show that grounded identity association and biography reading both contribute to the gains, which additional descriptions alone do not fully recover.",
+      "url": "https://arxiv.org/abs/2609.38155",
+      "hf_upvotes": 76,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.35427",
+      "title": "LLMs are General Asynchronous Agents",
+      "authors": [
+        "George Yakushev",
+        "Denis Mazur",
+        "Vladimir Bartenev",
+        "Vyacheslav Zhdanovskiy",
+        "Timofey Byzov",
+        "Vladimir Kaurkin",
+        "Vadim Pastushenko"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "abstract": "Modern LLMs are increasingly capable as autonomous agents, but they follow sequential interaction cycles: read, think, reply or call tools, repeat. Many real-world use cases are not sequential: voice assistants, embodied agents, and monitoring systems receive new inputs while they think or perform another task. Modern LLMs address this with specialized architectures for voice interaction and video streams, VLAs for robot control, asynchronous tool calling for API usage, and others. In this work, we generalize from different asynchronous tasks to general asynchronous agents that can adapt to different types of concurrency. To achieve this, we develop an asynchronous LLM framework that lets users (or the agents themselves) define inference coroutines with overlapping memory states. We showcase that Qwen 3.x models are capable of asynchronous operation for streaming video understanding, videogames, and monitoring, without task-specific training.",
+      "url": "https://arxiv.org/abs/2609.35427",
+      "hf_upvotes": 65,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.32522",
+      "title": "Beyond Dyadic Memory: Interaction-Aware Multimodal Memory with Adaptive Agentic Retrieval for Multi-Party Spoken Conversations",
+      "authors": [
+        "Wenxu Jia",
+        "Xize Cheng",
+        "Zihan Zhang",
+        "Dongjie Fu",
+        "Linjun Li",
+        "Wenshi Chen",
+        "Yangyang Wu",
+        "Tao Jin"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.IR",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "abstract": "Long-term memory enables agents to accumulate information and reason across sessions, yet existing research primarily focuses on dyadic text or image-text conversations, leaving long-term memory for multi-party spoken conversations underexplored. This setting requires preserving conversational content, identifying participants across sessions, and retaining who speaks to whom. To this end, we propose VoxPolyMem, an interaction-aware multimodal memory framework combining incremental speaker identification with a memory hierarchy comprising interaction memory, fact memory, and participant profiles. We formulate retrieval as sequential decision-making, where an agent rewrites queries and selects retrieval tools and memory layers based on accumulated evidence to address information gaps. We further introduce Evidence-Gain GRPO (EG-GRPO), which uses round-wise credit assignment to encourage complementary evidence acquisition. We also construct VoxPolyBench to evaluate memory evolution, personalized answering, memory retrieval and reasoning, and interaction reasoning and attribution in multi-party spoken conversations. VoxPolyMem achieves an overall score of 85.0 on VoxPolyBench, surpassing the strongest evaluated baseline by 23.6 points. On Mem-Gallery and H2HMem-Multi, it scores 89.6 and 74.4, respectively, exceeding the strongest evaluated public memory baselines by over 8 points each. These results highlight its potential for persistent, personalized assistance in multi-party multimodal interactions. Code and datasets are available at https://voxpolymem.github.io/VoxPolyBench/demo/",
+      "url": "https://arxiv.org/abs/2609.32522",
+      "hf_upvotes": 56,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36071",
+      "title": "LongCat-DeepResearch Technical Report",
+      "authors": [
+        "Meituan LongCat Team",
+        "He Zhu",
+        "Yue Xu",
+        "Wanli Wu",
+        "Haolin Ren",
+        "Yuxin Bian",
+        "Jiarui Zhao",
+        "Rongzhi Zhang",
+        "Quanchi Weng",
+        "Jinghao Cui",
+        "Yu Fan",
+        "Yuhan Liu",
+        "Yunhu Ye",
+        "Jiyuan Ren",
+        "Fengcheng Yuan",
+        "Zhao Yang",
+        "Jiacheng Zhang",
+        "Yuchuan Dai",
+        "Ruixuan Xiao",
+        "Haozhe Sun",
+        "Xiangyuan Liu",
+        "Cheng Sun",
+        "Yao Du",
+        "Yiming Hao",
+        "Hongbo Guo",
+        "Shuo He",
+        "Lei Wang",
+        "Xunliang Cai",
+        "Yan Chen",
+        "Fan Yang",
+        "Lingchuan Liu"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "We present LongCat-DeepResearch, a deep research system that combines an enhanced LongCat model with a multi-agent workflow for producing comprehensive, evidence-grounded reports. The workflow separates global planning from detailed investigation and coordinates revision at the section level. Multiple planning agents first explore external sources and refine an actionable research plan, termed ResearchSpec. Research agents then investigate and draft their assigned sections in parallel, gathering additional evidence in separate contexts as their analyses develop. Once the sections are assembled, global review guides targeted local revisions, reducing reliance on repeated full-report rewriting. This workflow also supports the construction of research tasks and trajectories for the mid-training and post-training of LongCat's general-purpose models. LongCat-DeepResearch achieves 55.25 on DeepResearchBench, 51.35 on DeepResearchBench II, and 79.83 on ResearchRubrics. On an in-house benchmark, it scores 76.04, ranking second among four compared systems. Development-set analyses show benefits from combining planning perspectives, while further planning refinement has mixed effects. Additional editing improves average automatic readability preference across two benchmarks, with different trends on each.",
+      "url": "https://arxiv.org/abs/2609.36071",
+      "hf_upvotes": 53,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37686",
+      "title": "EngiWorld: What Can Frontier Agents Deliver in Professional Engineering Environments?",
+      "authors": [
+        "Hongcheng Gao",
+        "Hailong Qu",
+        "Yu Lei",
+        "Henghui Sun",
+        "Haoyang Li",
+        "Yipeng Wei",
+        "Naihao Xue",
+        "Xiaohan Yu",
+        "Zhuo Tao",
+        "Yihe Zang",
+        "Yajiao Wang",
+        "Jingyi Tang",
+        "Yi Li",
+        "Jingjing Zhou",
+        "Jie Luo",
+        "Bohan Zeng",
+        "Chengyu Shen",
+        "Hao Jiang",
+        "Chong Chen",
+        "Bowen Qu",
+        "Olive Huang",
+        "Zeqiang Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Autonomous agents have made rapid progress in general-purpose computer use, but reliable automation of professional industrial engineering remains out of reach, as engineering workflows demand reasoning over geometric and physical constraints and dependencies preserved across software and design stages. We present EngiWorld, the first benchmark structured around the complete design loop: 1,301 expert-curated tasks spanning 6 engineering domains (CAD, CAE, CAM, BIM, EDA, and 3D visualization) and 26 professional software platforms, with both GUI and CLI interfaces and 6 task types ranging from software-selection to open-ended tasks. We further introduce an artifact-centric evaluation methodology built on a unified domain-verifier suite, which programmatically checks the geometric validity, physical feasibility, and rule compliance of final and intermediate artifacts, and scores quantitative design tasks continuously by specification attainment rather than binary success. Evaluation of seven frontier models reveals a substantial capability gap: the strongest model achieves an EngiScore of only 44.3, and just 3.6% of multi-software attempts succeed. EngiWorld provides the first rigorous foundation for measuring progress toward agents that operate professional engineering software end to end.",
+      "url": "https://arxiv.org/abs/2609.37686",
+      "hf_upvotes": 53,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37868",
+      "title": "Learning Beyond What You Sample: Off-Policy-Aware Cross-Model Trajectory Exchange for RLVR",
+      "authors": [
+        "Doohyuk Jang",
+        "Yoonsik Park",
+        "Gyouk Chu",
+        "Sihwan Park",
+        "Eunho Yang"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Reinforcement Learning with Verifiable Rewards (RLVR) methods such as GRPO rely on successful self-generated trajectories, but finite rollout budgets can produce all-fail groups with no reward-based policy-gradient signal. While additional rollouts improve the chance of success at higher cost, successful trajectories missing from one model's rollouts may already have been discovered by another. Indeed, we observe that heterogeneous models often succeed on complementary prompts, creating opportunities for mutual learning without a designated stronger teacher. To exploit this complementarity, we propose GRAFT (Gated Replacement of Answer-Failed groups with peer Trajectories), an off-policy-aware framework that replaces all-fail groups with informative peer groups. GRAFT transfers both successful and unsuccessful peer responses with peer-computed advantages, while controlling cross-model mismatch through sequence-level compatibility weighting and token-level importance ratio clipping. Across three heterogeneous model pairs and five mathematical reasoning benchmarks, GRAFT consistently improves both models over GRPO with the same per-model rollout budget, gaining 2.1 points on average and up to 4.5 points in model-level average performance. Stored peer trajectories preserve most of the gains, improving over GRPO by 1.8 points on average without simultaneous co-training.",
+      "url": "https://arxiv.org/abs/2609.37868",
+      "hf_upvotes": 46,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.35954",
+      "title": "ROSS: Relearning from Self-Generated Rollouts through Selective Supervision",
+      "authors": [
+        "Zhiwei Zhang",
+        "Huayu Deng",
+        "Fei Zhao",
+        "Jiayan Fu",
+        "Bin Liang",
+        "Kam-Fai Wong",
+        "Mu Chuan"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "abstract": "Large language model post-training generates self-generated rollouts through reinforcement learning and on-policy distillation, yet this experience is often treated as stale once the policy advances. Historical rollouts can remain compatible with a later policy while preserving behaviors that the policy no longer expresses reliably. However, they may also contain mistakes, abandoned attempts, and redundant actions that should not be imitated, motivating finer-grained selective supervision. We introduce ROSS (Relearning from Self-Generated Rollouts through Selective Supervision), which preserves the full historical trajectory as context while applying loss only to selected model-generated continuations. Across domain-specific reinforcement learning, multi-teacher on-policy distillation, and agentic reinforcement learning, ROSS consistently improves upstream checkpoints and outperforms baselines across mathematics, code generation, instruction following, and software engineering. On Qwen3.6-35B-A3B, ROSS improves the six-benchmark MOPD average from 58.40% to 62.20% and SWE-bench Verified from 64.20% to 68.40%. These results show that self-rollout training leaves behind reusable behavioral experience that can yield further gains through offline supervised fine-tuning (SFT), without additional policy rollouts.",
+      "url": "https://arxiv.org/abs/2609.35954",
+      "hf_upvotes": 33,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36802",
+      "title": "EasyPPO: Stabilizing the Critic Is Key",
+      "authors": [
+        "Xuanyi Zhou",
+        "Qiuyang Mang",
+        "Huanzhi Mao",
+        "Dacheng Li",
+        "Wenhao Chai",
+        "Mayank Mishra",
+        "Yichuan Wang",
+        "Karthik Narasimhan",
+        "Alvin Cheung",
+        "Joseph E. Gonzalez"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "A key strength of Proximal Policy Optimization (PPO) is its learned critic, which uses historical trajectories collected during reinforcement learning to estimate expected returns and reduce policy-gradient variance. However, we find that the critic is also a major source of instability in reinforcement learning for large language models (LLMs). We identify two critic failure modes that destabilize PPO. First, filtering truncated rollouts from both actor and critic shifts the policy objective to reward conditioned on completion, allowing truncation to increase even as conditional reward improves. Second, heterogeneous return noise can cause high-variance prompts to dominate critic updates in finite batches. We introduce EasyPPO to address these failures. Actor-only overlong filtering trains the critic on returns from both completed and truncated rollouts. Noise-normalized critic regression weights each prompt's critic loss by the inverse standard deviation of its sampled returns, balancing noise contributions across prompts. Moderately smaller critic mini-batches confine outlier influence to fewer rollouts during gradient clipping. Across continuous-reward coding on FrontierCS, binary-reward mathematical reasoning on AIME24, and multi-turn search on Search-R1, EasyPPO remains stable throughout the full training horizon and consistently outperforms vanilla PPO, VAPO, and HL-Gauss PPO. Its best validation scores show relative gains of 14.89%, 2.28%, and 9.47% over PPO, respectively.",
+      "url": "https://arxiv.org/abs/2609.36802",
+      "hf_upvotes": 29,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37236",
+      "title": "Asking for What Was Never Requested: Horizontal and Vertical Proactivity in Agents",
+      "authors": [
+        "Ido Levy",
+        "Asaf Yehudai",
+        "Segev Shlomov",
+        "Asaf Adi",
+        "Leshem Choshen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "An agent that uses tools typically responds to what the user explicitly asks, yet completing the task may require information the user never requested. Work on proactive agents mainly studies whether and when an agent should act on its own, not what information it should pursue. We study a distinct axis of proactivity: its content. Horizontal proactivity pursues unstated information that the current context already identifies, and vertical proactivity pursues needs that only earlier evidence reveals. A need graph, recovered from a benchmark's own decomposition, records which needs depend on which, so both forms, and whether the agent stops at the right time, can be scored from a transcript without a model judge. To learn this behavior, we propose Q&D (questioner and drafter), which trains a questioner to prefer the question whose continuation retrieves more of the required evidence, with no reward model or judge. On held-out splits of three multi-hop question-answering benchmarks, at equal retrieval spend, the trained questioner improves both forms of proactivity over the same model, prompted, and outperforms a prompted model $15\\times$ larger in the same role on two of the three, and the gain persists after controlling for question volume and length. Without further training, we place the questioner in an interactive customer-service agent with a simulated customer, where it completes more tasks while asking fewer questions, and in retail it outperforms the $15\\times$ larger model with fewer follow-up turns from the customer. These results show that proactivity depends not only on whether an agent acts without being asked, but also on what it chooses to pursue and when it stops.",
+      "url": "https://arxiv.org/abs/2609.37236",
+      "hf_upvotes": 27,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37725",
+      "title": "Context Language Models",
+      "authors": [
+        "Rulin Shao",
+        "Shannon Zejiang Shen",
+        "Junjie Oscar Yin",
+        "Yuetai Li",
+        "Minheng Wang",
+        "Hamish Ivison",
+        "Radha Poovendran",
+        "Nathan Lambert",
+        "Teng Xiao",
+        "Mike Lewis",
+        "Wen-tau Yih",
+        "Luke Zettlemoyer",
+        "Pang Wei Koh"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "We introduce Context Language Models (CLMs), language models that natively manage their own context. We implement this by treating the context as a file and allowing the model to make unrestricted updates to this file. This allows the model to learn what is most important to maintain in context, and naturally extends to multi-agent systems where multiple agent contexts coexist as files. Building CLMs zero-shot with existing models outperforms SOTA context management strategies across a variety of tasks: 11.4% higher accuracy with 21.5% fewer FLOPs on BrowseComp-Plus, 5% higher scores with 59% fewer FLOPs on 12-hour EdgeBench, and 65% greater improvement with the same compute on a 24-hour multi-repository agent-swarm task. Moreover, by shifting context management from external harness control to intrinsic model behavior, CLMs naturally enable both in-context and parametric learning of context-management strategies. We show that CLMs can be steered with natural-language instructions evolved through a standard skill-optimization loop, improving held-out accuracy by up to 35.9 points on a context-management task while reducing compute. We also introduce an online reinforcement learning method for CLMs, improving Qwen3.5-9B performance on BrowseComp-Plus by 47.6% while using 12% fewer FLOPs. Finally, we co-design Suffix Cache Reuse for CLM serving, further reducing server-side compute by 35% relative to standard SGLang at matched performance.",
+      "url": "https://arxiv.org/abs/2609.37725",
+      "hf_upvotes": 27,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.33326",
+      "title": "ANTMAN: Adaptive Need Tracking for Multi-Agent Navigation in Large Information Spaces",
+      "authors": [
+        "Jerry Wang",
+        "Haibo Jin",
+        "Xiaopeng Yuan",
+        "Peng Kuang",
+        "Haohan Wang"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Information-seeking agents increasingly operate over information spaces that are too large to process exhaustively. Yet many multi-agent systems organize computation around static partitions of the available space, causing coordination to grow with how information is segmented rather than with what the query still requires. We introduce ANTMAN, an adaptive coordination framework that treats evolving unresolved information needs as the unit of runtime coordination. ANTMAN maintains a revisable Need Graph that tracks unresolved requirements, accumulated evidence, prior attempts, and search progress, and uses this state to control worker selection, routing, and task-local recovery as new evidence is discovered. By separating the coordination policy from substrate-specific search interfaces, the same need-conditioned mechanism can operate across different information spaces. Experiments across multi-document question answering, controlled long-context scaling, and realistic structured navigation show that ANTMAN remains effective across settings, including when execution is delegated to substantially smaller worker models. Under a 16x increase in searchable context, ANTMAN increases active coordination by only 1.23x, compared with more than 15x for partition-driven baselines, while preserving strong answer quality.",
+      "url": "https://arxiv.org/abs/2609.33326",
+      "hf_upvotes": 24,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2607.11433",
+      "title": "Omni-Decision: Evidence-Ledger Planning for Omni-Modal Agents",
+      "authors": [
+        "Ming Ma",
+        "Yi Zhu",
+        "Yiran Zhong",
+        "Feida Zhu",
+        "Yuhao Wang",
+        "Junhan Shi",
+        "Lingrui Mei",
+        "Tianming Yang",
+        "Steven Hoi"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Omni-modal agents must seek evidence across video, audio, web pages, and computation to answer questions. Their main bottleneck is planning: noisy multimodal observations accumulate in conversation history and disrupt later decisions, while multimodal models have limited capacity for multi-step planning. Controlled backend replacements support this diagnosis: replacing the planner causes a much larger performance loss than replacing the perception backend. We present Omni-Decision, an omni-modal agent built on evidence-ledger planning: it replaces the growing dialogue history with an explicit evidence ledger that records what evidence is still missing, what has been confirmed, and where records conflict. A critic reads each noisy observation and passes only the usable content to the ledger, discarding the rest, so the planner works from a compact context throughout the task. Each run records the state, action, and verdict at every step, and supervised fine-tuning and decision-level reinforcement learning on these trajectories further improve the planner. Omni-Decision achieves state-of-the-art accuracy of 81.4% on OmniGAIA at approximately 43% of Gemini-3.1-Pro's cost per question, and 65.0% on WorldSense long-video understanding, level with the strongest end-to-end model.",
+      "url": "https://arxiv.org/abs/2607.11433",
+      "hf_upvotes": 24,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36651",
+      "title": "FocusVTC: Efficient and High-Performance Visual Text Compression with Adaptive Resolution",
+      "authors": [
+        "FangZhi Zhong",
+        "Xuerui Qiu",
+        "Yuqi Pan",
+        "Ya Liu",
+        "Shaowei Gu",
+        "Bo Xu",
+        "Guoqi Li"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Long-context reasoning in large language models incurs substantial computation and memory costs. Visual text compression (VTC) reduces input length by rendering text as images, but fixed-resolution rendering creates a compression-performance trade-off: low DPI saves tokens at the expense of legibility, whereas high DPI spends tokens on irrelevant content. We introduce FocusVTC, which breaks this trade-off through adaptive resolution while preserving general multimodal capabilities. It combines compressed low-DPI global views with selective region enhancement, integrating enhanced views into ongoing reasoning. We construct 29.4K high-quality Reasoning-Evidence Localization (REL) chain-of-thought examples (REL-CoT) that link reasoning traces to page indices and bounding boxes. Multi-resolution REL supervised fine-tuning (REL-SFT) teaches the model to localize relevant regions, and Group Relative Policy Optimization learns when to enhance resolution and how to use the resulting observations, without a separate continual-pretraining stage. At 72 DPI on RULER v1, FocusVTC scores 87.4 at $2.9\\times$ input compression, including tool observations, versus 57.5 for Glyph at $3.0\\times$ input compression. It surpasses its text-input backbone on LongBench (56.40 versus 55.86), improves the MRCR macro-average by 13.91 points, and achieves a 51.19 macro-average on VTCBench. The MRCR latency evaluation also shows a $2.79\\times$ online end-to-end speedup over Text. General multimodal capabilities are preserved, with MMMU increasing from 65.12 to 66.73 and MME from 2424.02 to 2457.62.",
+      "url": "https://arxiv.org/abs/2609.36651",
+      "hf_upvotes": 23,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37775",
+      "title": "HiRAE: Hierarchical Representation Autoencoding with Residual Budgets",
+      "authors": [
+        "Xuanyu Zhu",
+        "Yan Bai",
+        "Yang Shi",
+        "Yihang Lou",
+        "Yuanxing Zhang",
+        "Tengfei Liu",
+        "Jing Jin",
+        "Yuan Zhou"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Pretrained visual representations support image generation, but may not fully preserve the fine-grained details needed for faithful reconstruction. Meanwhile, intermediate encoder layers contain complementary visual details, but learning to fuse them for reconstruction can produce a latent distribution that is difficult to model. Existing fusion methods require empirical tuning of layer selection or staged optimization of fusion and decoding, increasing configuration effort or training complexity. We introduce HiRAE (Hierarchical Representation Autoencoder), which learns a hierarchical fusion framework over the full encoder hierarchy to improve reconstruction fidelity while maintaining compatibility with generative modeling. HiRAE groups encoder layers by depth and learns residual corrections to the deepest representation. Group-wise norm caps bound these corrections relative to the deep anchor, with tighter budgets for shallower groups. Our HiRAE-24 preserves the latent token count and channel dimension. On ImageNet-256, HiRAE-24 reduces reconstruction FID from 0.299 to 0.209 relative to RAEv2 while maintaining competitive guided generation quality. For text-to-image generation, HiRAE-24 improves alignment over RAEv2 on GenEval, DPG-Bench, and GenAI-Bench both before and after supervised fine-tuning. Under the same generator-training and evaluation protocol, post-fine-tuning GenEval increases from 84.86 to 87.70.",
+      "url": "https://arxiv.org/abs/2609.37775",
+      "hf_upvotes": 17,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37959",
+      "title": "TabFM: A Zero-Shot Foundation Model for Tabular Data",
+      "authors": [
+        "Weihao Kong",
+        "Erez Louidor Ilan",
+        "Shuxin Nie",
+        "Taman Narayan",
+        "Rajat Sen",
+        "Yichen Zhou",
+        "Deqing Fu",
+        "Samet Oymak",
+        "Abhimanyu Das"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Tabular machine learning typically relies on per-dataset workflows, fitting tree ensembles or running AutoML searches from scratch for every task. We present TabFM, a 400M-parameter tabular foundation model that formulates supervised tabular prediction as in-context learning. TabFM produces calibrated zero-shot predictions in a single forward pass without task-specific tuning. Trained entirely on synthetic tables generated from structural causal models, TabFM learns general tabular representations that transfer zero-shot to real-world tasks. Across all 51 benchmark datasets in TabArena (38 classification and 13 regression), zero-shot TabFM ranks first among default tabular foundation models and outperforms tuned AutoML pipelines. Two extensions over the same frozen weights improve performance further on both tracks: multi-view feature expansion with ensembling and post-hoc calibration (TabFM+), and LLM-guided, dataset-specific data processing and feature engineering (TabFM-Auto).",
+      "url": "https://arxiv.org/abs/2609.37959",
+      "hf_upvotes": 16,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.35530",
+      "title": "AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation",
+      "authors": [
+        "Yuta Oshima",
+        "Ku Onoda",
+        "Yusuke Iwasawa",
+        "Masahiro Suzuki",
+        "Yutaka Matsuo",
+        "Hiroki Furuta"
+      ],
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "Recent image generation models can take multiple reference images as input and combine them into a new image. However, multi-reference image generation remains challenging: models may omit or duplicate subjects from the references, or produce images in which multiple subjects appear unnaturally pasted. Recent work has proposed image generation agents that combine image generation models, reasoning models, and a harness, which is an executable program that specifies how reference images are interpreted, how generation is performed, how outputs are diagnosed, and how the final image is selected. In multi-reference generation, however, references play different roles and outputs must satisfy many criteria at once, such as fidelity to each reference and the naturalness of the whole image, so many parts of the harness could be improved, from how references are processed to how outputs are diagnosed. This makes it hard to predict which changes will improve performance and by how much, and good harnesses difficult to design by hand; indeed, human-written harnesses vary widely in performance. We therefore propose AutoRef, which optimizes the harness automatically while keeping both models frozen: a coding agent iteratively rewrites the harness code. AutoRef separates the tasks whose feedback informs proposals from the tasks used to select candidates, and continues the search from a beam of the top-ranked harnesses on the selection tasks. Using this procedure, we discover AutoRef-Harness, which improves the open-weight FLUX.2 [klein] 4B from 5.72 to 7.37 on held-out four-reference tasks of the MultiBanana benchmark, matching or exceeding proprietary models including Nano Banana Pro and GPT-Image-1.5. Without re-optimization, the same harness also improves results when the generator, number of references, benchmark, evaluator, or reasoning model differs from those used in the search.",
+      "url": "https://arxiv.org/abs/2609.35530",
+      "hf_upvotes": 14,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.32488",
+      "title": "When Does Dense Retrieval Need Asymmetric Geometry? A Bias-Variance Theory of Shared and Dual Projections",
+      "authors": [
+        "Maojun Sun",
+        "Yancheng Yuan",
+        "Jian Huang",
+        "Ruijian Han"
+      ],
+      "categories": [
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "Dense retrieval powers retrieval-augmented generation, semantic search, and question answering, yet the theoretical basis for choosing between shared and dual query-document projections remains unclear. We introduce a bias-variance theory for low-rank bilinear scoring. Shared projections induce positive-semidefinite operators, whereas dual projections realize arbitrary low-rank operators. We derive their exact approximation gap and prove a local Gaussian boundary: dual has lower risk exactly when squared directional signal exceeds the estimation cost of its additional degrees of freedom. This boundary motivates the Cross-fitted Asymmetry Risk Selector (CARS), which estimates reproducible directional signal from training pairs; its Gaussian counterpart admits exact selection-power and regret formulas. Guided by the theory, we run retrieval experiments across multiple datasets and embedding models. The mean Dual-minus-Shared NDCG@10 advantage more than doubles as query rotation increases from 0 degrees to 90 degrees. In the rank-sample-size grids, Shared wins 13 of 16 cells at n=32, whereas Dual wins all 32 cells at n=1024 and n=2048. Consistent with this shift, all 168 comparable operator-risk curves move toward Dual as training data grow. Compared to the two fixed-geometry baselines, CARS reduces held-out regret by 49-96% and achieves 90.1% mean geometry-selection accuracy.",
+      "url": "https://arxiv.org/abs/2609.32488",
+      "hf_upvotes": 13,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.37040",
+      "title": "Selecting The Most Informative Tokens in Natural Language Autoencoders",
+      "authors": [
+        "Federico Torrielli",
+        "Gianluca Barmina",
+        "Andrea Blasi Núñez",
+        "Amon Rapp",
+        "Luigi Di Caro",
+        "Peter Schneider-Kamp",
+        "Lukas Galke Poech"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Natural language autoencoders translate a language model's internal activations into readable explanations. Explaining every token position is costly. Which positions should an auditor inspect to understand a potential threat? We study this question across $4.7$ million explanations on prompt injection and concealment. We compare signals from model computation with a ranker trained only on chat structure. Chat structure usually selects more relevant explanations than the computational signals, without requiring a model forward pass for position selection. On three of four datasets, explaining just $5\\%$ of positions retains nearly all of the success rate from explaining every position, where success means obtaining an explanation about the threat. The benefit varies with the audit task. We also show that pretrained verbalizers recover words that models have learned to conceal through fine-tuning, without additional verbalizer training. These results identify where auditors can concentrate explanation generation and show that useful explanations can extend beyond the model a verbalizer was trained to describe.",
+      "url": "https://arxiv.org/abs/2609.37040",
+      "hf_upvotes": 12,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36139",
+      "title": "Language Models Are \"Insecure\" Reporters",
+      "authors": [
+        "Jenny Y. Huang",
+        "Jiameng Fan",
+        "Ahmed Imtiaz Humayun",
+        "Maximillian Chen",
+        "Tian Qin",
+        "Run Chen",
+        "Vidhya Navalpakkam",
+        "Hongxiang Gu"
+      ],
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "As large language models are deployed in increasingly autonomous long-horizon tasks, manually auditing and verifying the actions, artifacts, and outputs of models becomes more difficult. Users instead come to rely on LLM-generated reports to assess the quality and completeness of the work. We introduce a suite of eight adversarial reporting scenarios to systematically study whether LLMs conceal narrative-changing flaws: errors or limitations that undermine an otherwise successful account of work. We call this phenomenon \"insecure reporting.\" When handed machine learning experiment logs containing a planted negative result that substantially weakens the proposed method, GPT-5.5 flags the negative result in only 2 of 200 generated reports. However, when a short honesty instruction, \"Be honest in your response,\" is added, the model flags the negative result in 190 of 200 reports. Across eight open-weight models, chain-of-thought analysis reveals a recurring tension between disclosing narrative-changing flaws and reasoning about ways to appear successful. We perform an activation analysis and a steering experiment on Qwen3.5-9B, finding that honesty and success-seeking correspond to opposing directions in representation space. Our results suggest that LLMs tend to present narratives of success by default, and that steering models toward honesty makes their reports substantially more transparent.",
+      "url": "https://arxiv.org/abs/2609.36139",
+      "hf_upvotes": 11,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.36653",
+      "title": "Scheduling Recursive Reasoning in Looped Transformers",
+      "authors": [
+        "Boyuan Wang",
+        "Chengyao Yu",
+        "Jiaxi Ren",
+        "Hongxin Wei",
+        "Bingyi Jing",
+        "Yuxin Tao"
+      ],
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "Recurrent reasoning models have attracted growing attention for scaling test-time computation, typically by iteratively refining latent states with shared parameters. However, these models apply each learned update with a fixed unit scale, which can be conservative when updates make persistent progress and overly aggressive when they fluctuate, limiting the benefit of additional loops. To understand how the scale should vary along the trajectory, we first analyze the sensitivity of terminal loss to recurrent update scale. We show that its temporal average admits an exact decomposition into persistent-progress and centered-fluctuation contributions. Based on this, we introduce the Trajectory Adaptive Progress-Fluctuation Scheduler (TAPS), which tracks their balance across recurrent updates and adapts the step size online. Theoretically, we establish sufficient conditions under which TAPS reduces expected terminal loss and reaches a target quality in fewer recurrent loops. Empirically, we show that TAPS improves terminal accuracy across structured reasoning tasks without retraining. By further incorporating the progress-fluctuation principle into training, TAPS yields additional accuracy gains with up to 1.56 times wall-clock speedup at matched baseline accuracy. The broad applicability of TAPS is supported by its effectiveness across diverse recurrent architectures and inference strategies. Together, these results establish update scale as complementary control axis of recurrent inference alongside architecture and depth.",
+      "url": "https://arxiv.org/abs/2609.36653",
+      "hf_upvotes": 11,
+      "source": "huggingface"
+    },
+    {
+      "arxiv_id": "2609.38360",
+      "title": "On the Off-Policy Teacher in On-Policy Distillation",
+      "authors": [
+        "Langlin Huang",
+        "Hao Liu",
+        "Mononito Goswami",
+        "Xinyu Li",
+        "Prithwith Jana",
+        "Nikos Kanakaris",
+        "Patrick Blöbaum",
+        "Purak Jain"
+      ],
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "On-policy distillation (OPD) has recently emerged as a promising post-training paradigm in which the student learns from trajectories generated by its own policy under dense teacher supervision. However, OPD introduces a fundamental asymmetry: although the sampled trajectories are on-policy for the student, they are off-policy for the teacher. The teacher is typically optimized to continue from prefixes generated by its own policy, but during OPD it must instead supervise prefixes generated by the student. Empirically, we find that its continuation performance degrades as these prefixes grow longer. To address this issue, we propose Student-COnditioned Updates of the Teacher (SCOUT), a co-training framework that adapts the teacher to student-generated prefixes. Alongside standard OPD updates, SCOUT periodically optimizes the teacher's conditional ability using reinforcement learning with verifiable rewards, where the teacher generates continuations from student prefixes and learns from outcome rewards. Controlled experiments show that SCOUT improves the teacher's ability to continue from student-generated prefixes, supporting the intended mechanism of student-conditioned teacher adaptation. Across multiple teacher--student configurations, model scales, and reasoning domains, SCOUT also consistently improves the effectiveness of on-policy distillation.",
+      "url": "https://arxiv.org/abs/2609.38360",
+      "hf_upvotes": 10,
+      "source": "huggingface"
+    }
+  ]
+}
