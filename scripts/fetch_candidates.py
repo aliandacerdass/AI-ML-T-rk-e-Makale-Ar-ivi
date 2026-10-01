@@ -80,7 +80,7 @@ def fetch_arxiv_meta(ids):
             meta[aid] = {
                 "arxiv_id": aid,
                 "title": " ".join(title.split()),
-                "authors": [a.findtext("a:name", "", ATOM) for a in e.findall("a:author", ATOM)],
+                "authors": [" ".join(a.findtext("a:name", "", ATOM).split()) for a in e.findall("a:author", ATOM)],
                 "categories": [c.get("term") for c in e.findall("a:category", ATOM)],
                 "abstract": " ".join(e.findtext("a:summary", "", ATOM).split()),
                 "url": f"https://arxiv.org/abs/{aid}",
