@@ -30,7 +30,15 @@ TZ=Europe/Istanbul date +%u   # 1-5 hafta içi, 6 cumartesi, 7 pazar
 python scripts/fetch_candidates.py --date $TARIH
 ```
 
-Script, HF Daily Papers'ın bir önceki gününü çeker (06:00'da o günün listesi henüz dolmamış olur), arXiv API'den metadata'yı tamamlar ve `data/raw/$TARIH.json`'u yazar. Sıfırdan farklı kodla çıkarsa **bir kez** tekrar dene. Yine başarısızsa hata mesajını not al ve **adım 8'e geç**.
+Script, HF Daily Papers'ın bir önceki gününü çeker (06:00'da o günün listesi henüz dolmamış olur), arXiv API'den metadata'yı tamamlar ve `data/raw/$TARIH.json`'u yazar. Sıfırdan farklı kodla çıkarsa **bir kez** tekrar dene. Yine başarısızsa aşağıdaki yedek yolu dene.
+
+**Yedek yol (WebFetch):** Ortam shell üzerinden arXiv/Hugging Face'e erişemiyorsa (bağlantı reddi, proxy hatası, DNS hatası):
+1. WebFetch ile `https://huggingface.co/api/daily_papers?date=<önceki gün>` adresini çek. Her makale için `paper.id` ve `paper.upvotes` değerlerini al.
+2. WebFetch ile `https://export.arxiv.org/api/query?id_list=<virgülle ayrılmış ID'ler>&max_results=50` adresini çek. Her makale için başlık, yazarlar, kategoriler ve abstract'ı al.
+3. Kategorilerinde `cs.LG` veya `cs.AI` olmayanları ve `data/seen.json`'daki ID'leri çıkar.
+4. Sonucu script'in ürettiği formatla **birebir aynı** şekilde `data/raw/$TARIH.json`'a yaz: `run_date`, `hf_dates`, `sources` (`["huggingface", "webfetch"]`), `fetched_at`, `papers` (her biri: `arxiv_id, title, authors, categories, abstract, hf_upvotes, url, source`). Değerleri WebFetch çıktısından aynen aktar, hiçbir alanı tahminle doldurma.
+
+Yedek yol da başarısızsa hata mesajını not al ve **adım 8'e geç**.
 
 ### 3. Makale seç
 
