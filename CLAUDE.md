@@ -104,7 +104,7 @@ Push reddedilirse `git pull --rebase origin main` yapıp tekrar push'la.
 
 ## Hafta sonu
 
-arXiv cumartesi ve pazar duyuru yapmaz. Bu günlerde yeni veri çekilmez. Yalnızca **bu hafta (pazartesi-cuma) zaten özetlenmiş** makaleler kullanılır (`data/papers.csv`). Dosyadaki her arXiv ID'si `papers.csv`'de bulunmalıdır.
+arXiv cumartesi ve pazar duyuru yapmaz. Bu günlerde yeni veri çekilmez. Yalnızca **bu hafta (pazartesi-cuma) zaten özetlenmiş** makaleler kullanılır (`data/papers.csv`). Dosyadaki her arXiv ID'si `papers.csv`'de bulunmalıdır. Frontmatter'da `kaynak: papers.csv` yaz.
 
 **Cumartesi — Haftanın özeti** (`tur: haftalik`):
 - Başlık: `# 3 Ekim 2026 — Haftanın Özeti`
@@ -116,7 +116,7 @@ arXiv cumartesi ve pazar duyuru yapmaz. Bu günlerde yeni veri çekilmez. Yalnı
 **Pazar — Derin okuma** (`tur: derin`):
 - Başlık: `# 4 Ekim 2026 — Derin Okuma: <makale başlığı>`
 - Otomatik üretim uyarısı.
-- Haftadan tek makale. Günlük formattaki tüm zorunlu bölümler + `## Arka plan` (konuyu anlamak için gereken temel bilgi) ve `## Sınırlılıklar ve açık sorular`. Yaklaşık 500-800 kelime.
+- Haftadan tek makale. Başlığın altında günlük formattaki `**arXiv:** ...` satırı, `makale_sayisi: 1`. Günlük formattaki tüm zorunlu bölümler + `## Arka plan` (konuyu anlamak için gereken temel bilgi) ve `## Sınırlılıklar ve açık sorular`. Yaklaşık 500-800 kelime.
 - Ayrıntı için makalenin HTML sürümüne (`https://arxiv.org/html/<id>`) erişebiliyorsan kullan. Erişemiyorsan yalnızca abstract'a dayan ve bunu belirt. Sayı kuralı aynıdır: yalnızca kaynakta gördüğünü yaz.
 
 Hafta sonu dosyaları da adım 5'i atlar (yeni makale yok), adım 6-9'u uygular.
