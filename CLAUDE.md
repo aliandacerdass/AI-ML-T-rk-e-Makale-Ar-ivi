@@ -100,9 +100,12 @@ README'deki son 7 gün bölümünü ve `ARSIV.md`'yi yeniden üretir.
 
 ```bash
 git add -A
-git commit -m "🤖 günlük: 2026-10-01 (4 makale)"
+git -c user.name="Ali Andac Erdas" -c user.email="226695382+aliandacerdass@users.noreply.github.com" \
+    commit -m "🤖 günlük: 2026-10-01 (4 makale)"
 git push origin main
 ```
+
+**Commit kimliği:** Commit'i her zaman yukarıdaki `-c user.name` / `-c user.email` ile at. Commit mesajına `Co-Authored-By`, `Claude-Session` veya benzeri bir trailer **ekleme**. Mesaj yalnızca aşağıdaki formattaki tek satırdır. Otomasyon zaten `🤖` öneki ve README ile açıkça belirtiliyor.
 
 Mesaj formatları:
 - Hafta içi: `🤖 günlük: YYYY-MM-DD (N makale)`
