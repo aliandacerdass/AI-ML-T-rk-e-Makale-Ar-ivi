@@ -19,7 +19,7 @@ Her gün arXiv'deki **cs.LG** ve **cs.AI** kategorilerinden öne çıkan 3-5 mak
 ## 2. Repo yapısı
 
 ```
-AI-ML-T-rk-e-Makale-Ar-ivi/   (plan adı: arxiv-turkce-gunluk)
+AI-ML-TurkceMakaleArsivi/   (plan adı: arxiv-turkce-gunluk)
 ├── README.md                  # Tanıtım + son 7 günün linkleri (otomatik güncellenir)
 ├── CLAUDE.md                  # Günlük görevin adım adım prosedürü (scheduled task bunu okur)
 ├── PLAN.md                    # Bu dosya
@@ -171,7 +171,7 @@ kaynak: huggingface+arxiv
   - **Saat:** her gün 06:00 (Europe/Istanbul). arXiv duyuruları Türkiye saatiyle gece 03:00 civarı çıkar.
   - **06:00 notu:** O saatte HF Daily Papers'ın "bugün" listesi henüz dolmamış olur ve arXiv RSS 07:00 TR'de yenilenir. Bu yüzden `fetch_candidates.py` varsayılan olarak HF'nin **bir önceki gününü** (oylaması tamamlanmış liste) çeker; yetersizse en fazla 3 gün geriye bakar, sonra RSS'e düşer.
   - **Prompt:**
-    > `aliandacerdass/AI-ML-T-rk-e-Makale-Ar-ivi` reposunda çalış. Repo kökündeki CLAUDE.md dosyasını oku ve oradaki günlük prosedürü baştan sona uygula. Uydurma içerik üretme; veri alınamazsa yalnızca çalışma kaydını commit'le.
+    > `aliandacerdass/AI-ML-TurkceMakaleArsivi` reposunda çalış. Repo kökündeki CLAUDE.md dosyasını oku ve oradaki günlük prosedürü baştan sona uygula. Uydurma içerik üretme; veri alınamazsa yalnızca çalışma kaydını commit'le.
   - Repo'ya **push** yetkisi olduğundan emin ol.
 - Ağ erişimini kontrol et: scheduled task'ın ortamı arXiv ve Hugging Face'e shell üzerinden erişemeyebilir. Erişemiyorsa iki seçenek: (a) ortamın ağ izinlerine bu alan adlarını eklemek, (b) `CLAUDE.md`'ye yedek yol yazmak: script başarısız olursa Claude veriyi WebFetch ile çeker ve aynı JSON formatında `data/raw/`'a kaydeder.
 - İlk otomatik çalışmayı manuel tetikle ve sonucu kontrol et.
