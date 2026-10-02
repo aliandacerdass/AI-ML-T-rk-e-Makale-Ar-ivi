@@ -7,7 +7,7 @@ kaynak: huggingface+arxiv
 
 # <G Ay YYYY> — Günün AI/ML Makaleleri
 
-> 🤖 Bu sayfa Claude tarafından otomatik hazırlanmıştır. Özetler makalelerin abstract'larına dayanır; ayrıntı için orijinal makaleyi okuyun.
+> Özetler makalelerin abstract'larına dayanır; ayrıntı için orijinal makaleyi okuyun.
 
 ## 1. <Orijinal makale başlığı>
 

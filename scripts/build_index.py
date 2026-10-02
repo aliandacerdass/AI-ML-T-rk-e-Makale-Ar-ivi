@@ -59,7 +59,7 @@ def last_success():
 
 def build_arsiv(days):
     out = ["# Arşiv", "",
-           "> 🤖 Bu dosya `scripts/build_index.py` tarafından otomatik üretilir. Elle düzenlemeyin.", ""]
+           "> Bu dosya `scripts/build_index.py` tarafından otomatik üretilir. Elle düzenlemeyin.", ""]
     by_month = defaultdict(list)
     for d in days:
         by_month[(d["date"].year, d["date"].month)].append(d)

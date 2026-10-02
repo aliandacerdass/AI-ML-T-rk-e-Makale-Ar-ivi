@@ -1,6 +1,6 @@
 # Terim Sözlüğü (İngilizce → Türkçe)
 
-> 🤖 Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur ve Claude tarafından güncellenir. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
+> Bu sözlük özetlerde terimlerin tutarlı çevrilmesi için tutulur. Yeni terim alfabetik sıraya eklenir. Yerleşik Türkçe karşılığı olmayan terimler (ör. *transformer*) İngilizce bırakılır.
 
 | İngilizce | Türkçe | Not |
 |---|---|---|

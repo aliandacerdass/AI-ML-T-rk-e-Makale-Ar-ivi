@@ -1,6 +1,6 @@
 # Arşiv
 
-> 🤖 Bu dosya `scripts/build_index.py` tarafından otomatik üretilir. Elle düzenlemeyin.
+> Bu dosya `scripts/build_index.py` tarafından otomatik üretilir. Elle düzenlemeyin.
 
 ## Ekim 2026
 

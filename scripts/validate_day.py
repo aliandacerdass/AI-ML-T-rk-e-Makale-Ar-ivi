@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW_DIR = ROOT / "data" / "raw"
 PAPERS_CSV = ROOT / "data" / "papers.csv"
 
-WARNING = "🤖 Bu sayfa Claude tarafından otomatik hazırlanmıştır."
+WARNING = "Özetler makalelerin abstract'larına dayanır"
 REQUIRED = {
     "gunluk": ["Tek cümlede", "Problem", "Yöntem", "Sonuçlar", "Neden önemli"],
     "haftalik": ["Tek cümlede", "Neden önemli"],
@@ -67,7 +67,7 @@ def validate(path):
 
     # Uyarı
     if WARNING not in body:
-        errors.append("otomatik üretim uyarısı eksik")
+        errors.append("kaynak notu eksik")
 
     # Makale bölümleri: "## 1. Başlık"
     sections = re.split(r"^## \d+\. ", body, flags=re.M)[1:]
