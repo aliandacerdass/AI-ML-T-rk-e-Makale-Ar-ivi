@@ -30,6 +30,7 @@
 | KV cache | KV önbellek (anahtar-değer önbelleği) | |
 | large language model (LLM) | büyük dil modeli (BDM) | Kısaltma olarak LLM de kullanılabilir |
 | latency | gecikme | |
+| latent token | örtük token | Kelimeye dönüşmeyen sürekli ara temsil |
 | loss function | kayıp fonksiyonu | |
 | manipulation | nesne kavrama-taşıma | Robotikte |
 | mixture of experts (MoE) | uzmanlar karışımı | |
@@ -50,6 +51,7 @@
 | retrieval | erişim / geri getirme | RAG: erişimle zenginleştirilmiş üretim |
 | reward model | ödül modeli | |
 | scaling law | ölçekleme yasası | |
+| self-distillation | öz-damıtma | Aynı modelin hem öğretmen hem öğrenci rolü |
 | state of the art (SOTA) | en ileri düzey | |
 | supervised learning | denetimli öğrenme | |
 | token | token (simge) | |

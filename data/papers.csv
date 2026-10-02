@@ -4,3 +4,8 @@ arxiv_id,tarih,title,categories,hf_upvotes,dosya
 2609.32722,2026-10-01,Scaling Properties of Same-Family On-Policy Distillation,cs.LG,221,ozetler/2026/10/2026-10-01.md
 2609.36322,2026-10-01,Periodic Weak Spots: Phase Sensitivity from Chunked KV-Cache Compression,cs.LG;cs.AI,88,ozetler/2026/10/2026-10-01.md
 2609.37226,2026-10-01,Follow the Entities: A Corpus Map for Agentic Search,cs.AI;cs.LG,76,ozetler/2026/10/2026-10-01.md
+2609.38721,2026-10-02,UniEvo-VL: An On-policy Self-Distillation Training Recipe for Multimodal Model Self-improvement,cs.AI,234,ozetler/2026/10/2026-10-02.md
+2609.36484,2026-10-02,"The Teacher Is a Direction, Not a Destination: Extrapolating RL-Induced Representation Residuals in On-Policy Distillation",cs.LG,231,ozetler/2026/10/2026-10-02.md
+2609.34563,2026-10-02,Rethinking Latent Visual Reasoning: Grounding Latent Reasoning in Visual Evidence,cs.LG,206,ozetler/2026/10/2026-10-02.md
+2609.39102,2026-10-02,False Frontiers: Diagnosing and Mitigating Co-Cheating in Self-Evolving Search Agents,cs.AI;cs.LG,190,ozetler/2026/10/2026-10-02.md
+2609.38288,2026-10-02,AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks,cs.AI,120,ozetler/2026/10/2026-10-02.md
