@@ -14,6 +14,7 @@
 | dataset | veri seti | |
 | demonstration | gösterim | Robotikte öğretici örnek |
 | diffusion model | difüzyon modeli | |
+| directed acyclic graph (DAG) | yönlü döngüsüz çizge | Düğümler arası bağımlılık gösterimi |
 | distillation | damıtma | Bilgi damıtma (*knowledge distillation*) |
 | embedding | gömme (vektörü) | |
 | encoder / decoder | kodlayıcı / kod çözücü | |
@@ -38,6 +39,7 @@
 | multimodal | çok kipli | Metin + görüntü + ses gibi |
 | navigation | gezinme | Robotikte |
 | on-policy distillation | on-policy damıtma | Öğrenci kendi ürettiği çıktılar üzerinden öğretmenden öğrenir |
+| orchestration | orkestrasyon | Birden çok ajanın görevlerini düzenleme |
 | overfitting | aşırı öğrenme | |
 | parameter | parametre | |
 | policy | politika | Pekiştirmeli öğrenmede |
